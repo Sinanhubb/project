@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EV6lp3rT2uc=",
+  "dgSpecHash": "MT7P1guyMho=",
   "success": true,
-  "projectFilePath": "C:\\project\\ECommerceApp\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\project\\ECommerceApp\\backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sinsi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.18\\microsoft.aspnetcore.openapi.8.0.18.nupkg.sha512",
     "C:\\Users\\sinsi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

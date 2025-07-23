@@ -12,7 +12,7 @@
         <h3 class="product-name">{{ product.name }}</h3>
         <p class="product-category">{{ product.category }}</p>
         <p class="product-description">{{ truncatedDescription }}</p>
-        <div class="product-price">${{ product.price.toFixed(2) }}</div>
+        <div class="product-price">₹{{ product.price.toFixed(2) }}</div>
       </div>
     </router-link>
     
@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     handleImageError(event) {
-      event.target.src = 'http://via.placeholder.com/300x300?text=No+Image'
+      event.target.src = 'https://via.placeholder.com/300x300?text=No+Image'
     }
   }
 }

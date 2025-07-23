@@ -35,7 +35,7 @@
           <p class="product-category-badge">{{ product.category }}</p>
           
           <div class="product-price-section">
-            <span class="product-price">${{ product.price.toFixed(2) }}</span>
+            <span class="product-price">₹{{ product.price.toFixed(2) }}</span>
             <span v-if="product.isInStock" class="stock-status in-stock">✓ In Stock</span>
             <span v-else class="stock-status out-of-stock">✗ Out of Stock</span>
           </div>
@@ -51,7 +51,7 @@
               :disabled="!product.isInStock"
               class="btn-primary add-to-cart-main"
             >
-              <span v-if="product.isInStock">Add to Cart - ${{ product.price.toFixed(2) }}</span>
+              <span v-if="product.isInStock">Add to Cart - ₹{{ product.price.toFixed(2) }}</span>
               <span v-else>Currently Unavailable</span>
             </button>
             
