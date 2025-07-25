@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\ECommerceApp\\Backend\\Backend.csproj": {}
+    "C:\\project\\Ecommerceapp\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\project\\ECommerceApp\\Backend\\Backend.csproj": {
+    "C:\\project\\Ecommerceapp\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\ECommerceApp\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\project\\Ecommerceapp\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\project\\ECommerceApp\\Backend\\Backend.csproj",
+        "projectPath": "C:\\project\\Ecommerceapp\\backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\sinsi\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\ECommerceApp\\Backend\\obj\\",
+        "outputPath": "C:\\project\\Ecommerceapp\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sinsi\\AppData\\Roaming\\NuGet\\NuGet.Config"
