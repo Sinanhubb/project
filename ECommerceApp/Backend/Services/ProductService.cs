@@ -64,8 +64,7 @@ namespace ECommerceApp.Services
 
         private string GenerateUnsplashImageUrl(string keyword)
         {
-            // Using Unsplash API with specific image IDs for consistent product images
-            // Format: https://images.unsplash.com/photo-[ID]?w=600&h=400&fit=crop
+            
             var imageIds = new Dictionary<string, string>
             {
                 ["iphone-15-pro"] = "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&h=400&fit=crop",
